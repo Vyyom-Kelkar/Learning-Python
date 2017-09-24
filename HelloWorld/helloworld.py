@@ -1,0 +1,6 @@
+print ("Hello World")
+a = input ("Enter a number: ")
+print (int(a) + 2)
+b = input ("Enter another number: ")
+int(b)
+print (b)
