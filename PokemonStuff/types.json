@@ -1,0 +1,495 @@
+{
+ "ghost": {
+  "does_not_effect": [
+   "normal"
+  ], 
+  "normal_damage": [
+   "steel", 
+   "electric", 
+   "fire", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "water", 
+   "ice", 
+   "rock", 
+   "fighting", 
+   "fairy", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "ghost", 
+   "psychic"
+  ], 
+  "not_very_effective": [
+   "dark"
+  ]
+ }, 
+ "dark": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "steel", 
+   "electric", 
+   "normal", 
+   "fire", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "water", 
+   "ice", 
+   "rock", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "ghost", 
+   "psychic"
+  ], 
+  "not_very_effective": [
+   "dark", 
+   "fairy", 
+   "fighting"
+  ]
+ }, 
+ "electric": {
+  "does_not_effect": [
+   "ground"
+  ], 
+  "normal_damage": [
+   "ghost", 
+   "steel", 
+   "normal", 
+   "fire", 
+   "psychic", 
+   "poison", 
+   "dark", 
+   "ice", 
+   "rock", 
+   "fighting", 
+   "fairy", 
+   "bug"
+  ], 
+  "super_effective": [
+   "water", 
+   "flying"
+  ], 
+  "not_very_effective": [
+   "grass", 
+   "electric", 
+   "dragon"
+  ]
+ }, 
+ "normal": {
+  "does_not_effect": [
+   "ghost"
+  ], 
+  "normal_damage": [
+   "dark", 
+   "electric", 
+   "normal", 
+   "fire", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "water", 
+   "ice", 
+   "fighting", 
+   "fairy", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [], 
+  "not_very_effective": [
+   "steel", 
+   "rock"
+  ]
+ }, 
+ "fire": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "dark", 
+   "fighting", 
+   "fairy", 
+   "ground"
+  ], 
+  "super_effective": [
+   "steel", 
+   "grass", 
+   "bug", 
+   "ice"
+  ], 
+  "not_very_effective": [
+   "fire", 
+   "water", 
+   "dragon", 
+   "rock"
+  ]
+ }, 
+ "dragon": {
+  "does_not_effect": [
+   "fairy"
+  ], 
+  "normal_damage": [
+   "ghost", 
+   "dark", 
+   "electric", 
+   "normal", 
+   "fire", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "water", 
+   "ice", 
+   "rock", 
+   "fighting", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "dragon"
+  ], 
+  "not_very_effective": [
+   "steel"
+  ]
+ }, 
+ "psychic": {
+  "does_not_effect": [
+   "dark"
+  ], 
+  "normal_damage": [
+   "ghost", 
+   "electric", 
+   "normal", 
+   "fire", 
+   "flying", 
+   "ice", 
+   "dragon", 
+   "water", 
+   "rock", 
+   "fairy", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "fighting", 
+   "poison"
+  ], 
+  "not_very_effective": [
+   "steel", 
+   "psychic"
+  ]
+ }, 
+ "flying": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "dark", 
+   "normal", 
+   "fire", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "water", 
+   "ice", 
+   "fairy", 
+   "ground"
+  ], 
+  "super_effective": [
+   "grass", 
+   "bug", 
+   "fighting"
+  ], 
+  "not_very_effective": [
+   "steel", 
+   "electric", 
+   "rock"
+  ]
+ }, 
+ "steel": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "normal", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "dark", 
+   "fighting", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "fairy", 
+   "ice", 
+   "rock"
+  ], 
+  "not_very_effective": [
+   "fire", 
+   "water", 
+   "steel", 
+   "electric"
+  ]
+ }, 
+ "ice": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "poison", 
+   "dark", 
+   "fighting", 
+   "rock", 
+   "fairy", 
+   "bug"
+  ], 
+  "super_effective": [
+   "dragon", 
+   "flying", 
+   "grass", 
+   "ground"
+  ], 
+  "not_very_effective": [
+   "fire", 
+   "water", 
+   "steel", 
+   "ice"
+  ]
+ }, 
+ "poison": {
+  "does_not_effect": [
+   "steel"
+  ], 
+  "normal_damage": [
+   "dark", 
+   "electric", 
+   "normal", 
+   "fire", 
+   "psychic", 
+   "flying", 
+   "ice", 
+   "dragon", 
+   "water", 
+   "fighting", 
+   "bug"
+  ], 
+  "super_effective": [
+   "fairy", 
+   "grass"
+  ], 
+  "not_very_effective": [
+   "ghost", 
+   "rock", 
+   "poison", 
+   "ground"
+  ]
+ }, 
+ "water": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "steel", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "flying", 
+   "poison", 
+   "dark", 
+   "ice", 
+   "fighting", 
+   "fairy", 
+   "bug"
+  ], 
+  "super_effective": [
+   "fire", 
+   "rock", 
+   "ground"
+  ], 
+  "not_very_effective": [
+   "water", 
+   "grass", 
+   "dragon"
+  ]
+ }, 
+ "fighting": {
+  "does_not_effect": [
+   "ghost"
+  ], 
+  "normal_damage": [
+   "electric", 
+   "fire", 
+   "fighting", 
+   "dragon", 
+   "water", 
+   "grass", 
+   "ground"
+  ], 
+  "super_effective": [
+   "steel", 
+   "dark", 
+   "rock", 
+   "ice", 
+   "normal"
+  ], 
+  "not_very_effective": [
+   "psychic", 
+   "flying", 
+   "bug", 
+   "poison", 
+   "fairy"
+  ]
+ }, 
+ "rock": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "dark", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "poison", 
+   "dragon", 
+   "water", 
+   "rock", 
+   "fairy", 
+   "grass"
+  ], 
+  "super_effective": [
+   "fire", 
+   "flying", 
+   "bug", 
+   "ice"
+  ], 
+  "not_very_effective": [
+   "steel", 
+   "fighting", 
+   "ground"
+  ]
+ }, 
+ "fairy": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "flying", 
+   "ice", 
+   "water", 
+   "rock", 
+   "fairy", 
+   "grass", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "dark", 
+   "fighting", 
+   "dragon"
+  ], 
+  "not_very_effective": [
+   "fire", 
+   "steel", 
+   "poison"
+  ]
+ }, 
+ "grass": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "ghost", 
+   "electric", 
+   "normal", 
+   "psychic", 
+   "ice", 
+   "dark", 
+   "fighting", 
+   "fairy"
+  ], 
+  "super_effective": [
+   "water", 
+   "rock", 
+   "ground"
+  ], 
+  "not_very_effective": [
+   "steel", 
+   "fire", 
+   "flying", 
+   "poison", 
+   "dragon", 
+   "grass", 
+   "bug"
+  ]
+ }, 
+ "bug": {
+  "does_not_effect": [], 
+  "normal_damage": [
+   "electric", 
+   "normal", 
+   "ice", 
+   "dragon", 
+   "water", 
+   "rock", 
+   "bug", 
+   "ground"
+  ], 
+  "super_effective": [
+   "dark", 
+   "psychic", 
+   "grass"
+  ], 
+  "not_very_effective": [
+   "ghost", 
+   "steel", 
+   "fire", 
+   "flying", 
+   "poison", 
+   "fighting", 
+   "fairy"
+  ]
+ }, 
+ "ground": {
+  "does_not_effect": [
+   "flying"
+  ], 
+  "normal_damage": [
+   "ghost", 
+   "dark", 
+   "normal", 
+   "psychic", 
+   "ice", 
+   "dragon", 
+   "water", 
+   "fighting", 
+   "fairy", 
+   "ground"
+  ], 
+  "super_effective": [
+   "fire", 
+   "steel", 
+   "electric", 
+   "poison", 
+   "rock"
+  ], 
+  "not_very_effective": [
+   "grass", 
+   "bug"
+  ]
+ }
+}
